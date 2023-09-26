@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@300&family=Lexend+Deca&family=Manrope:wght@400;700&family=Montserrat:wght@600&family=Open+Sans&family=Overpass&family=Poppins:wght@400;800&family=Ubuntu:wght@300;400;500;700&display=swap');
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+.Container button{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 9px;
+    color: #fff;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    background-color: rgb(36, 36, 36);
+    transition: 0.3s ease;
+}
+.Container button:hover{
+    background-color: gray;
+}
+.second-Container{
+   background-color: black;
+   padding: 1rem 3rem 3rem 3rem;
+   border-radius: 20px;
+}
+.top-btn .gray{
+    background-color: rgb(104, 104, 104);
+    color: black;
+}
+.top-btn .gray:hover{
+ background-color: #fff;
+}
+.Container .orange{
+    background-color: orange;
+}
+.Container .orange:hover{
+    background-color: #fff;
+    color: orange;
+}
+.Container .hang:focus{
+   color: orange;
+   background-color: #fff;
+}
+.Container .equal{
+    width: 142px;
+    border-radius: 3rem;
+}
+.input{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.input input{
+    background-color: black;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 2rem;
+    width: 20.1rem;
+    height: 5rem;
+}
+@media screen and (max-width:500px) {
+    .second-Container{
+        padding: 1rem;
+    }
+}
+@media screen and (max-width:370px) {
+    .second-Container{
+        padding-left: 5rem;
+    }
+    .Container button{
+        width: 3.5rem;
+        height: 3.5rem;
+        margin: 5px;
+    }
+    .Container{
+        margin-top: 2rem;
+    }
+    .Container .equal{
+        width: 122px;
+    }
+}
+
+
